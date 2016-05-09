@@ -1,0 +1,148 @@
+/* CSS declarations go here */
+#overlay h1 {
+    text-align: center;
+}
+#overlay form {
+    padding: 0 20px 20px;
+}
+#overlay form input {
+    margin: 10px;
+    border: 1px solid green;
+    height: 20px;
+    width: 15%;
+    border-radius: 5px;
+    outline: none;
+}
+#overlay .wrapper {
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+#overlay .closeButton {
+    margin: 10px 10px;
+}
+#overlay form button {
+    height: 30px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 20px;
+}
+.container {
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 90vh;
+}
+.newProjForm > h1 {
+    font-size: 24px;
+    color: #333333;
+}
+.newProjForm input {
+    display: block;
+    margin: 10px;
+    border: 1px solid blue;
+    height: 30px;
+    width: 25%;
+    border-radius: 5px;
+    outline: none;
+}
+.newProjForm lable {
+    margin-left: 10px;
+    font-weight: 900;
+}
+.newProjForm button {
+    height: 30px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.newProjForm ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 10px;
+}
+.newProjForm ul li {
+    width: 25%;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+}
+.tableStyles {
+    width: 80%;
+    margin-left: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+.tableStyles table {
+    width: 49%;
+    display: inline-block;
+}
+.tableHeadStyle tr th {
+    border-bottom: 1px solid #ccc;
+    font-weight: 800;
+    background-color: #ddd;
+    width: 100%;
+}
+.tableRiskHeadStyle tr th{
+    border-bottom: 1px solid #0ff;
+    font-weight: 800;
+    background-color: #ddd;
+    width: 100%;
+}
+.tableBodyStyle tr td {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.tableRiskBodyStyle tr td {
+    border: 1px solid #0ff;
+    width: 100%;
+}
+.manageProcessesForm {
+    padding-left: 20px;
+}
+.manageProcessesForm h1 {
+    font-size: 24px;
+    color: #333333;
+}
+.manageProcessesForm select {
+    outline: none;
+    margin: 10px;
+    border: 1px solid blue;
+    height: 30px;
+    width: 25%;
+    border-radius: 5px
+}
+.manageProcessesForm .buttonBlock button {
+    height: 30px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.hiddenTable, .hiddenForm {
+    display: none;
+}
+.inputError {
+    color: red;
+}
+.startPage {
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.startPage h1{
+    color: #c5c4c4;
+    width: 21%;
+}
+.startPage button {
+    background: #79cb9a;
+    width: 15%;
+    color: #fff;
+    height: 40px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
