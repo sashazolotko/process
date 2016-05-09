@@ -95,7 +95,7 @@ if (Meteor.isClient) {
               "Control Process",
               "Collect lessons learned",
               "Authorize project closure",
-              "Prepare planned closure",
+              "Prepare planned closure",Refactoring or design improvement) (XP)
               "Hand over products",
               "Recommend project closure",
               "Determining Closure",
